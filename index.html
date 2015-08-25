@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="RadfordFootball">
 <head>
 	<meta charset="UTF-8">
 	<title>Radford Football</title>
 </head>
 <body>
+
 	
+	<div class="main" ng-view>
+		
+		
+	</div>
 	
 <!--	ANGULAR SCRIPTS-->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.js"></script>
+	
+	<script src="https://code.angularjs.org/1.3.16/angular-route.js"></script>		
 
 <!--	RADFORD FOOTBALL SCRIPTS-->
 	<script src="scripts/app.js"></script>
 	<script src="scripts/matchup/MatchupCtrl.js"></script>
+	<script src="scripts/services/MatchupService.js"></script>
+
 </body>
 </html>
